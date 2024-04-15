@@ -41,9 +41,9 @@ Now imagine, for some crazy reason, I want to call this method in my `pre-regist
 import { SumUp } from "../helpers/sum-up";
 
 exports.onExecutePreUserRegistration = async (event, api) => {
-console.log("Hello Pre-Reg");
-console.log("Summing it up: ", SumUp(1, 2, 3, 4, 5, 6));
-console.log("Bye Pre-Reg");
+    console.log("Hello Pre-Reg");
+    console.log("Summing it up: ", SumUp(1, 2, 3, 4, 5, 6));
+    console.log("Bye Pre-Reg");
 }
 ```
 

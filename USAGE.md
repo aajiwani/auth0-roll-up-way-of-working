@@ -19,3 +19,7 @@
 1. Auth0 requries individual files output, hence I am using [`gulp-rollup-each`](https://www.npmjs.com/package/gulp-rollup-each) for that
 1. I have a private module where I am importing things from using [`@rollup/plugin-node-resolve`](https://www.npmjs.com/package/@rollup/plugin-node-resolve) plugin
 1. If you don't have such a need (step 3), you can live with one less package :sunglasses:
+
+
+### Useful pointers
+Reading [`example/README.md`](example/README.md) gives you a glimpse of the structure of the code.
