@@ -76,3 +76,8 @@ And this is possible by adding just a small piece of transformation within the p
 
 ### TLDR
 `Roll-up` (which I have used, but there are other ways) can help us improve our code bases to form the output that Auth0 wants, giving us the flexibility of keeping our code simple and structured (abstracted). This repo speaks of a clear and simple example to get that going. You can think of many other ways of consuming this repo per your need.
+
+---
+
+#### Usage
+Please refer to [USAGE.md](./USAGE.md) to familiarize yourself with how to consume the matter above.
