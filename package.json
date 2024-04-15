@@ -1,0 +1,17 @@
+{
+  "name": "auth0-roll-up-way-of-working",
+  "version": "1.0.0",
+  "description": "This repo deals with a very recent exploration on how rollup could be relevant while working with Auth0 based tech (Rules/Hooks/Actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "exports": {
+    "./*": {
+      "import": "./src/*"
+    }
+  }
+}
